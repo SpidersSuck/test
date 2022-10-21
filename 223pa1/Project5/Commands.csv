@@ -1,0 +1,30 @@
+echo,"display line of text that is passed as an argument"
+return,Used to exit from a shell function
+insmod,Used to insert modules into the kernel
+fun,Used to draw various type of patterns on the terminal
+fg,Used to put a background job in foreground
+cd,move one level up
+x,execute permission
+quit,logout
+ss,stock statistics
+tail,output the last part
+kill,Used to terminate processes manually
+scp,Used to copy file or files between servers
+cp,Used to copy files or batch of files or directory or whatever
+mkdir,Allows the user to create directories
+pwd,prints the path of directory starting from root
+disable,Used to stop the printers or classes
+sort,sort text files
+vi,text editor
+chroot,change root directory
+chmod,modify the permissions of a file
+finger,gives details of all users logged in
+exec,execute a command from the bash
+chown,change the file Owner or group
+g++,used for compiling a CPP file to generate exe file
+dd,delet line
+cat,reads from file and gives their output
+man,display the user manual of command that we can run on terminal
+ls,lists the files in the current directory
+diff3,compare the three files line by line
+clear,clear the terminal screen
