@@ -1,13 +1,7 @@
-# CMakeList.txt : CMake project for 223PA2, include source and define
-# project specific logic here.
-#
-cmake_minimum_required (VERSION 3.8)
-
-# Add source to this project's executable.
+cmake_minimum_required(VERSION 3.16)
+project(demo_linked_list)
+set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_FLAGS  "${CMAKE_CXX_FLAGS} -Wall")
+set(CMAKE_BUILD_TYPE Debug)
+add_executable(project1 main.cpp List.cpp Header.h)
 add_executable (Project1 "main.cpp" "AVLTree.h" "AVLNode.h")
-
-if (CMAKE_VERSION VERSION_GREATER 3.12)
-  set_property(TARGET Project1 PROPERTY CXX_STANDARD 20)
-endif()
-
-# TODO: Add tests and install targets if needed.
